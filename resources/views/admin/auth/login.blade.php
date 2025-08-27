@@ -417,17 +417,17 @@
                 loadingOverlay.classList.add('active');
                 
                 // محاكاة عملية تسجيل الدخول (في التطبيق الحقيقي، سيتم إرسال النموذج مباشرة)
-                setTimeout(function() {
+                // setTimeout(function() {
                     // في التطبيق الحقيقي، قم بإلغاء التعليق عن السطر التالي لإرسال النموذج
-                    // loginForm.submit();
+                    loginForm.submit();
                     
                     // لأغراض العرض، سنعرض رسالة نجاح بعد 2 ثانية
-                    loadingOverlay.classList.remove('active');
-                    loginBtn.classList.remove('btn-loading');
-                    loginBtn.disabled = false;
+                    // loadingOverlay.classList.remove('active');
+                    // loginBtn.classList.remove('btn-loading');
+                    // loginBtn.disabled = false;
                     
-                    alert('تم تسجيل الدخول بنجاح! في التطبيق الحقيقي، سيتم توجيهك إلى لوحة التحكم.');
-                }, 2000);
+                    // alert('تم تسجيل الدخول بنجاح! في التطبيق الحقيقي، سيتم توجيهك إلى لوحة التحكم.');
+                // }, 2000);
             });
         });
     </script>
