@@ -735,47 +735,7 @@
     </div>
 
     <!-- Testimonials -->
-    <section id="testimonials" class="testimonials">
-        <div class="section-title">
-            <h2>آراء عملائنا</h2>
-            <p>ما يقوله عملاؤنا عن جودة خدماتنا واحترافية فريق العمل</p>
-        </div>
-        
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <p class="testimonial-text">تعاملت مع شركةمضلات وسواتر الرياض لتركيب سواتر للفيلا، وكانت تجربة ممتازة من حيث الاحترافية في التنفيذ والالتزام بالمواعيد والأسعار المعقولة. أنصح بالتعامل معهم.</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">م</div>
-                    <div class="author-details">
-                        <h4>محمد السليم</h4>
-                        <p>عميل - سواتر فلل</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial-card">
-                <p class="testimonial-text">فريق عمل محترف ومنظم، قاموا بتركيب مظلة للسيارات في منزلي وكان العمل متقناً وفي الوقت المتفق عليه. الأسعار مناسبة والجودة ممتازة.</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">س</div>
-                    <div class="author-details">
-                        <h4>سارة العتيبي</h4>
-                        <p>عميلة - مظلات سيارات</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="testimonial-card">
-                <p class="testimonial-text">قمت بطلب هناجر ساندوتش بانل للمصنع، وكانت النتيجة رائعة. المواد عالية الجودة والتنفيذ كان بإشراف مهندسين متخصصين. شكراً لظل الجنوب على الجودة والاحترافية.</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">خ</div>
-                    <div class="author-details">
-                        <h4>خالد الرشيد</h4>
-                        <p>صاحب مصنع - هناجر</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!-- Contact -->
     <section id="contact">

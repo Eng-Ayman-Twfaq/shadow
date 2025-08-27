@@ -19,6 +19,7 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         // إضافة Middleware لإجبار HTTPS
         \App\Http\Middleware\ForceHttps::class,
+        
     ];
 
     protected $middlewareGroups = [
