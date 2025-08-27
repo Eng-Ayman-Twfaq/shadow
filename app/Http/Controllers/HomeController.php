@@ -43,7 +43,7 @@ class HomeController extends Controller
         $validator = Validator::make($request->all(), [
             'full_name' => 'required|string|max:255',
             'phone' => 'required|string|max:20',
-            'service_type' => 'required|string|max=100',
+            'service_type' => 'required|string|max:100',
             'message' => 'nullable|string',
         ]);
 
