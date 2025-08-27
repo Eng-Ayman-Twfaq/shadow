@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://shadow-n7a6.onrender.com'),
 
     /*
     |--------------------------------------------------------------------------
