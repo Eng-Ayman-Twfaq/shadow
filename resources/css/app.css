@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.svg-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* تخصيصات إضافية */
+body {
+  @apply bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300;
+}
+
+/* إصلاح حجم الأيقونات في القوائم */
+.sidebar nav a > svg {
+  @apply h-5 w-5;
+}
+
+/* تخصيصات الشريط الجانبي */
+.sidebar {
+  @apply transition-all duration-300;
+}
+
+.sidebar-collapsed {
+  @apply w-16;
+}
+
+.sidebar-expanded {
+  @apply w-64;
+}
+
+.dark-mode-toggle {
+  @apply relative w-12 h-6 bg-gray-300 dark:bg-gray-600 rounded-full cursor-pointer;
+}
+
+.dark-mode-toggle::before {
+  @apply absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300;
+}
+
+.dark .dark-mode-toggle::before {
+  @apply transform translate-x-6 bg-yellow-300;
+}
+/* تخصيصات إضافية */
+body {
+  @apply bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300;
+}
+
+.sidebar {
+  @apply transition-all duration-300;
+}
+
+.sidebar-collapsed {
+  @apply w-16;
+}
+
+.sidebar-expanded {
+  @apply w-64;
+}
+
+.dark-mode-toggle {
+  @apply relative w-12 h-6 bg-gray-300 dark:bg-gray-600 rounded-full cursor-pointer;
+}
+
+.dark-mode-toggle::before {
+  @apply absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300;
+}
+
+.dark .dark-mode-toggle::before {
+  @apply transform translate-x-6 bg-yellow-300;
+}
+
+
+
+/* تخصيصات إضافية */
+body {
+  @apply bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300;
+}
+
+.sidebar {
+  @apply transition-all duration-300;
+}
+
+.sidebar-collapsed {
+  @apply w-16;
+}
+
+.sidebar-expanded {
+  @apply w-64;
+}
+
+.dark-mode-toggle {
+  @apply relative w-12 h-6 bg-gray-300 dark:bg-gray-600 rounded-full cursor-pointer;
+}
+
+.dark-mode-toggle::before {
+  @apply absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300;
+}
+
+.dark .dark-mode-toggle::before {
+  @apply transform translate-x-6 bg-yellow-300;
+}
+
+/* تأكد من أن جميع الأيقونات داخل القائمة لها الحجم نفسه */
+.sidebar nav a > svg,
+.sidebar nav a > div > svg {
+  @apply h-5 w-5;
+}
+
+/* إصلاح حجم الأيقونات في قائمة المستخدم */
+#user-menu-button svg,
+.user-avatar svg {
+  @apply h-4 w-4;
+}
+
+/* إصلاح حجم أزرار التبديل */
+.dark-mode-toggle {
+  @apply h-6 w-12;
+}
