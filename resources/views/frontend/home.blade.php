@@ -726,21 +726,7 @@
     </section>
 
     <!-- Gallery -->
-    <section id="gallery">
-        <div class="section-title">
-            <h2>معرض أعمالنا</h2>
-            <p>استعرض بعضاً من مشاريعنا المنفذة في الرياض والمناطق المجاورة</p>
-        </div>
-
-        <div class="masonry">
-            <img src="{{ asset('images/m.jpg') }}" alt="مشروع سواتر" onclick="openLightbox(this)" />
-            <img src="{{ asset('images/m1.jpg') }}" alt="مشروع مظلات" onclick="openLightbox(this)" />
-            <img src="{{ asset('images/m2.jpg') }}" alt="هناجر ساندوتش بانل" onclick="openLightbox(this)" />
-            <img src="{{ asset('images/m3.jpg') }}" alt="بيوت شعر" onclick="openLightbox(this)" />
-            <img src="{{ asset('images/m4.jpg') }}" alt="عشب صناعي" onclick="openLightbox(this)" />
-            <img src="{{ asset('images/m5.jpg') }}" alt="برجولات" onclick="openLightbox(this)" />
-        </div>
-    </section>
+ 
 
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox" onclick="closeLightbox()">
