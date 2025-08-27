@@ -846,15 +846,15 @@
 
     <!-- Footer -->
     <footer>
-        <div>© {{ date('Y') }}  سواتر ومظلاتمضلات وسواتر الرياض. جميع الحقوق محفوظة.</div>
+        <div>© {{ date('Y') }}   مضلات وسواتر الرياض. جميع الحقوق محفوظة.</div>
         <a href="tel:+966537522808">
             <div>للتواصل: 0537522808</div>
         </a>
+           
         <div class="footer-links">
-            <a href="#products">المنتجات</a>
-            <a href="#services">الخدمات</a>
-            <a href="#gallery">أعمالنا</a>
-            <a href="#contact">تواصل</a>
+            <a href="https://ayman-3w51.onrender.com/" class="text-[var(--accent)] hover:underline">ايمن توفيق للبرمجيات</a> 
+                و 
+                <a href="https://al-hnani.vercel.app/" class="text-[var(--accent)] hover:underline">محمد الحناني للبرمجيات</a>
         </div>
     </footer>
 
