@@ -30,10 +30,10 @@ Route::post('/admin/logout', [LoginController::class, 'logout'])
     ->middleware('auth:admin');
 
 // المسارات المحمية
-Route::middleware(['auth:admin'])
-    ->prefix('admin')
-    ->name('admin.')
-    ->group(function () {
+
+  
+    
+  
         Route::get('/dashboard', [DashboardController::class, 'index'])
             ->name('dashboard');
             
@@ -48,4 +48,4 @@ Route::middleware(['auth:admin'])
     ->name('admin.contact-requests.show');
         // إدارة المستخدمين الإداريين
         Route::resource('admin-users', \App\Http\Controllers\Admin\AdminUsersController::class);
-    });
+   

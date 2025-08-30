@@ -33,14 +33,14 @@ class AdminUsersController extends Controller
             $query->where('is_active', $request->is_active);
         }
         
-        $adminUsers = $query->latest()->paginate(10);
+        $adminUser = $query->latest()->paginate(10);
         
         // إحصائيات للمستخدمين
-        $totalUsers = AdminUser::count();
-        $activeUsers = AdminUser::where('is_active', 1)->count();
-        $inactiveUsers = AdminUser::where('is_active', 0)->count();
+        $totalUser = AdminUser::count();
+        $activeUser = AdminUser::where('is_active', 1)->count();
+        $inactiveUser = AdminUser::where('is_active', 0)->count();
         
-        return view('admin.admin-users.index', compact('adminUsers', 'totalUsers', 'activeUsers', 'inactiveUsers'));
+        return view('admin.admin-users.index', compact('adminUser', 'totalUsrs', 'activeUers', 'inactiveUsers'));
     }
 
     /**
